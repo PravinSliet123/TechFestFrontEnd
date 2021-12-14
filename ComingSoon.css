@@ -1,3 +1,17 @@
-.container-fluid{
+.container-fluid {
     background-color: aqua;
+}
+
+.trailer_header {
+    text-align: center;
+    margin: 10px 0 10px 0px;
+    color: #ffff;
+}
+
+.trailer_container {
+    display: grid;
+    justify-content: center;
+    gap: 4px;
+    align-content: center;
+    grid-auto-flow: row;
 }
