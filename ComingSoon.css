@@ -1,3 +1,55 @@
-.container-fluid{
-    background-color: aqua;
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* This is the footer section ................... */
+#footer{
+    position: fixed;
+    bottom: -1px;
+    text-align: center;
+    width: 100%;
+}
+.social-icons{width: 100%; 
+    height: auto; 
+    padding: 10px;
+    padding-bottom: 15px;
+    background: linear-gradient(black,rgb(2, 69, 12));
+    opacity: 1;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.social-icons a i {
+    color: white;
+    padding: 0 10px;
+}
+.fa-facebook-square:hover{
+  
+    color: #6195ff;
+    transition: .3s ease;
+}
+.fa-twitter-square:hover{
+    color: #1DA1F2;
+    transition: .3s ease;
+}
+.fa-instagram:hover{
+    color: #cd486b;
+    transition: .3s ease;
+}
+.fa-linkedin-square:hover{
+    color: #0e76a8;
+    transition: .3s ease;
+}
+.fa-youtube-play:hover{
+    color: 	#FF0000;
+    transition: .3s ease;
+}
+.fa-telegram:hover{
+    color: #0088CC;
+    transition: .3s ease;
+}
+
+/* footer section ends here....................... */
