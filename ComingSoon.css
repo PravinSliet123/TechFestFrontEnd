@@ -3,20 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
-    color: rgb(66, 66, 66);
+    color: white!important;
 }
 /* backgraound part starts here .............*/
 body{
     background-image: linear-gradient(
         rgba(0,0,0,0.1),
-        rgba(0,0,0,0.8)
-    ),url("./images/Asset\ 1@4x.png") !important;
-   background-size:cover,contain!important;
+        rgba(0,0,0,-1.4)
+    ),url("./images/Asset\ 1@4x.png") ;
+   background-size:100%, 100% !important;
    background-repeat: no-repeat !important;
    background-color: black !important;
-   background-attachment: fixed,fixed !important;
-   
+
 }
 .top-left-green-shadow img{
     color: transparent;
