@@ -14,48 +14,294 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>ComingSoon</title>
 </head>
 
 <body>
-        <div class="top-left-green-shadow">
-            <img src="./images/bgoverlay.png" alt="">
+    <div class="top-left-green-shadow">
+        <img src="./images/bgoverlay.png" alt="">
+    </div>
+    <div class="bottom-right-green-shadow">
+        <img src="./images/background-overlay-fx.png" alt="">
+    </div>
+
+
+
+
+
+    <nav class="navbar_main">
+
+        <div class="navbar_navlogo">
+            <img src="./images/header-logo.png" alt="" class="navLogo">
         </div>
-        <div class="bottom-right-green-shadow">
-            <img src="./images/background-overlay-fx.png" alt="">
+
+        <div class="mainMenu>">
+
+            <ul>
+                <li>Home</li>
+                <li>Sponsers</li>
+                <li>Gallery</li>
+                <span onclick="openNav()" class="hamburgerIcon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </span>
+            </ul>
         </div>
-     
-        <h1>hello Code here....</h1>
-        
-        <div class="container-fluid" id="NavBar">
-            Nav Bar code goes here
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sponsers</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+
         </div>
-        <div class="container-fluid" id="Logo">
-            comming soon logo
-        </div>
-        <div class="container-fluid" id="sponsors">
-            Sponsors code goes here
-        </div>
-        <div class="container-fluid" id="Trailer">
-            Trailer code goes here
-        </div>
-        <div class="container-fluid" id="Gallary">
-            Gallary code goes here
-        </div>
-        <div id="footer">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/techfestsliet/" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-facebook-square fa-2x"> </i></a>
-                <a href="https://twitter.com/techfestsliet" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-twitter-square fa-2x"></i></a>
-                <a href="https://instagram.com/techfestsliet_" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-instagram fa-2x"></i></a>
-                <a href="https://www.linkedin.com/company/techfest-sliet" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-linkedin-square fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCTSrKfF90hZq7reWgd2oyZg" target="_blank"
-                    rel="noopener noreferrer"> <i class="fa fa-youtube-play fa-2x"></i></a>
+
+
+    </nav>
+    <div class="navbar container-fluid">
+        <div class="homePage">
+            <div class="homePage_item">
+                <h2 class="heading">COMMING SOON</h2>
+                <p>techfEST, the annual science and technology festival that brings together engineers and
+                    innovators,trendsetters bussinss vissionaries, and tech aficionades to collaborate to find solutions
+                    and mostchallenging scientific problems. There is something for everyone here at techFest-SLIET.
+                </p>
+                <div class="homePage_form">
+                    <form action="#">
+                        <input type="email" placeholder="Enter your Email id to get updates" name="email" id="email">
+                        <!-- <input type="submit" value="NOTIFY ME!"> -->
+                        <input type="submit" class="input-with-icon" value="NOTIFY ME!" id="btn">
+                    </form>
+                </div>
+            </div>
+            <div>
+                <img src="./images/tf22logo-removebg-preview.png" alt="" class="homeLogo">
             </div>
         </div>
+        <div class="sidemenu">
+
+        </div>
+
+
+    </div>
+    <div class="container" id="sponsors">
+        Sponsors code goes here
+    </div>
+    <div class="container-fluid" id="Trailer">
+
+        <h1 class="trailer_header">TRAILER</h1>
+        <div class="trailer_container">
+            <iframe class=trailer_iframe src="https://www.youtube.com/embed/Nt58vSQqBU8?controls=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+        </div>
+    </div>
+    <div class="container-fluid" id="Gallary">
+        <div class="Gallery_heading">
+            <h1>Gallery</h1>
+        </div>
+        <div class="wrapper">
+            <div class="owl-carousel owl-theme " id="owl-carousel">
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4676.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4759.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4790.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4676.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4761.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4790.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4893.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4933.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_5019.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_5027.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4676.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_4676.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_5335.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_0108.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_1095.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_3400.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_3402.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_3412.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/IMG_6885.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="Gallery_item">
+                    <a href="#">
+                        <img src="./images/DSC_0979.png" alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--responsive section startred  -->
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                loop: true,
+                merge: true,
+                scroll: true,
+                nav: true,
+                smartSpeed: 600,
+                center: true,
+                dots: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                        loop: true,
+                        center: true,
+                    },
+                    700: {
+                        items: 2,
+                        nav: true,
+                        loop: true,
+                        center: true,
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true,
+                        center: true,
+                    }
+                }
+            })
+        </script>
+    </div>
+    <div class="container-fluid" id="event">
+
+        <div class="events">
+            <div class="events_card">
+                <img src="./images//sample.jpg" alt="">
+                <h4>Events</h4>
+            </div>
+            <div class="events_card">
+                <img src="./images//sample.jpg" alt="">
+                <h4>Competition</h4>
+            </div>
+            <div class="events_card">
+                <img src="./images//sample.jpg" alt="">
+                <h4>Events</h4>
+            </div>
+            <div class="events_card">
+                <img src="./images//sample.jpg" alt="">
+                <h4>Events</h4>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/techfestsliet/" target="_blank" rel="noopener noreferrer"> <i
+                    class="fa fa-facebook-square fa-2x"> </i></a>
+            <a href="https://twitter.com/techfestsliet" target="_blank" rel="noopener noreferrer"> <i
+                    class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="https://instagram.com/techfestsliet_" target="_blank" rel="noopener noreferrer"> <i
+                    class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/company/techfest-sliet" target="_blank" rel="noopener noreferrer"> <i
+                    class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UCTSrKfF90hZq7reWgd2oyZg" target="_blank"
+                rel="noopener noreferrer"> <i class="fa fa-youtube-play fa-2x"></i></a>
+        </div>
+    </div>
 </body>
 
 </html>
