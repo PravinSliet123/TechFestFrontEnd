@@ -6,14 +6,14 @@ function navbarMenutoggle(){
 
 
 
-// gallery part ConvolverNode.apply..............
+// gallery part code is herer...............
 
 // manue code herer..........
 
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("mainMenu").style.marginright = "250px";
+    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("mainMenu").style.marginright = "200px";
   }
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
