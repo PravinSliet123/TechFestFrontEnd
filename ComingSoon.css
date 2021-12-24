@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white!important;
 }
 p{
     text-justify: auto;
@@ -239,14 +238,17 @@ nav ul li:hover{
     max-width: 500px;
     padding: 20px 20px;
 }
-
+.notify__me{
+    display: flex;
+}
 .notify__me input[type="email"] {
     width: 100%;
     max-width: 500px;
     box-sizing: border-box;
     font-size: 12px;
     outline: none;
-    height: 30px;
+    height: 30px;    
+    
 }
 .input-with-icon{
     margin-left: 4px;
@@ -293,6 +295,7 @@ nav ul li:hover{
 .notify__me form {
     display: flex;
     flex-direction: row;
+    color: #000;
 }
 
 @media screen and (max-width: 800px) {
