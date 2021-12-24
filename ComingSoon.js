@@ -14,6 +14,8 @@ async function onEmailAddBtnClick() {
         alert(
           "Thank you for subscribing to Techfest. We will send you updates on your email"
         );
+      } else if (res.status == 204) {
+        alert("The email already exists.");
       } else {
         alert("Some error occurred. Please try again");
       }
