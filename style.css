@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white!important;
+    color: white;
 }
 p{
     text-justify: auto;
@@ -21,7 +21,7 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,-1.4)
-    ),url("./images/Asset\ 1@4x.png") ;
+    ),url("./images/logos/background-main.png") ;
    background-size:100%, 100% !important;
    background-repeat: no-repeat !important;
    background-color: black !important;
@@ -239,14 +239,17 @@ nav ul li:hover{
     max-width: 500px;
     padding: 20px 20px;
 }
-
+.notify__me{
+    display: flex;
+}
 .notify__me input[type="email"] {
     width: 100%;
     max-width: 500px;
     box-sizing: border-box;
     font-size: 12px;
     outline: none;
-    height: 30px;
+    height: 30px;    
+    
 }
 .input-with-icon{
     margin-left: 4px;
@@ -262,6 +265,7 @@ nav ul li:hover{
 }
 .notify__me input:first-child{
     padding-left: 15px;
+    color: #000 !important;
 }
 
 .notify__me input[type="submit"] {
@@ -293,6 +297,7 @@ nav ul li:hover{
 .notify__me form {
     display: flex;
     flex-direction: row;
+    color: #000;
 }
 
 @media screen and (max-width: 800px) {
@@ -478,13 +483,14 @@ nav ul li:hover{
  
  img
  {
-    border-radius: 10px;
+    border-radius: 5px;
  }
  
  .Eevent_card__back h2
  {
      position: absolute;
      font-family: "heading font";
+     
  }
  
  .Eevent_card__back p
@@ -500,7 +506,6 @@ nav ul li:hover{
      position: absolute;
      padding: 10px;
      top: 200px;
-     color: #000;
  }
  
  /* style the Eevent_card class with all child div's of class .front */
@@ -519,6 +524,7 @@ nav ul li:hover{
 .events{
     margin-left: 9%;
     margin-bottom: 400px ;
+    z-index: 0;
 }
  .Eevent_card
 {
@@ -609,7 +615,6 @@ nav ul li:hover{
 }
 .Sponsors__container .owl-item img{
     backdrop-filter: blur(6px);
-    color: #ffffff44;
 }
 
 .Sponsors__container .owl-item.center {
