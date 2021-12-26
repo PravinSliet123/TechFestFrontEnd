@@ -253,7 +253,7 @@
     }
     
     .notify__me input[type="email"] {
-        width: 50%;
+        width: 47%;
         max-width: 500px;
         box-sizing: border-box;
         font-size: 12px;
@@ -295,12 +295,12 @@
         height: 30px;
         border: none;
         border-radius: 15px;
-        width: 24%;
+        width: 20%;
         margin-left: -24px;
     }
     
     .homePage_item .homepage__heading {
-        font-size: 5.18rem;
+        font-size: 6.6rem;
         color: white;
         margin-bottom: 10px;
         font-family: "heading font";
@@ -380,12 +380,13 @@
         }
         .notify__me input[type="submit"] {
             width: 29%;
+            font-size: 12px;
         }
         .notify__me input::-webkit-input-placeholder {
             font-size: 12px;
         }
         .notify__me input[type="email"] {
-            width: 79%;
+            width: 81%;
         }
     }
     
