@@ -4,6 +4,7 @@
         font-family: "heading font";
         src: url("./font/BEST\ IN\ CLASS.ttf") format("truetype");
     }
+    
     @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
     * {
         margin: 0;
@@ -232,7 +233,6 @@
         justify-content: space-around;
         margin: 90px 40px;
         color: white;
-        
     }
     
     .homePage_item {
@@ -253,14 +253,14 @@
     }
     
     .notify__me input[type="email"] {
-        width: 60%;
+        width: 50%;
         max-width: 500px;
         box-sizing: border-box;
         font-size: 12px;
         outline: none;
         height: 30px;
         border: none;
-        border-radius: 3px;
+        border-radius: 15px;
     }
     
     .input-with-icon {
@@ -269,22 +269,20 @@
     }
     
     .notify__me input::-webkit-input-placeholder {
-        color: #02450c;
+        color: gray;
         font-weight: 600;
         opacity: .7;
     }
     
-    .notify__me input:first-child {
-        padding-left: 30px;
+    #email {
+        padding-left: 40px;
         color: #000 !important;
     }
     
     .input-icon {
-        position: relative;
-        top: calc(61% - 0.5em);
-        padding-right: 7px;
-        padding-left: 4px;
-        color: #02450c;
+        position: absolute;
+        margin: 5px 4px 2px 12px;
+        color: gray;
     }
     
     .notify__me input[type="submit"] {
@@ -296,9 +294,9 @@
         outline: none;
         height: 30px;
         border: none;
-        border-radius: 3px;
-        width: 30%;
-        margin-left: -7px;
+        border-radius: 15px;
+        width: 24%;
+        margin-left: -24px;
     }
     
     .homePage_item .homepage__heading {
@@ -307,27 +305,18 @@
         margin-bottom: 10px;
         font-family: "heading font";
         letter-spacing: 1.5px;
-        text-align: center;
+        text-align: left;
     }
     
     .homePage_item p {
         margin-bottom: 25px;
-        opacity: .6;
-    }
-    
-    
-    @media screen and (max-width: 1200px) {
-        .input-icon {
-            top: calc(66% - 0.5em);
-        }
+        /* opacity: .6; */
+        max-width: 81%;
     }
     
     @media screen and (max-width:989px) {
-        .input-icon {
-            top: calc(87% - 0.5em);
-        }
         .notify__me input[type="email"] {
-            width: 72%;
+            width: 58%;
         }
     }
     
@@ -345,14 +334,14 @@
         .homePage {
             margin: 0px;
         }
+        .homePage_item .homepage__heading {
+            font-size: 4.18rem;
+        }
         .homePage_item p {
             line-height: 1.3;
         }
-        .input-icon {
-            top: calc(98% - 0.5em);
-        }
         .notify__me input[type="email"] {
-            width: 72%;
+            width: 68%;
         }
     }
     
@@ -366,21 +355,37 @@
             max-width: 405px;
         }
         .homePage_item .homepage__heading {
-            font-size: 4.8rem;
+            font-size: 4rem;
             color: white;
             margin-bottom: 10px;
         }
         .homePage_item p {
             font-size: 14px;
         }
+        .notify__me input[type="submit"] {
+            width: 27%;
+        }
+        .notify__me input[type="email"] {
+            width: 71%;
+        }
     }
     
     @media screen and (max-width:360px) {
-        .homePage_item .heading {
+        .heading {
             font-size: 4rem;
         }
         .homePage_item p {
             font-size: 14px;
+            max-width: 99%;
+        }
+        .notify__me input[type="submit"] {
+            width: 29%;
+        }
+        .notify__me input::-webkit-input-placeholder {
+            font-size: 12px;
+        }
+        .notify__me input[type="email"] {
+            width: 79%;
         }
     }
     
@@ -622,7 +627,6 @@
     
     #Gallary {
         margin-top: 450px;
-
     }
     
     #sponsors {
@@ -636,7 +640,6 @@
     }
     
     .Sponsors__container .owl-item {
-       
         transform: scale(.5);
     }
     
