@@ -12,6 +12,9 @@
         box-sizing: border-box;
         color: white;
     }
+    img {
+        border-radius: 5px;
+    }
     
     p {
         text-align: justify;
@@ -139,7 +142,7 @@
         padding: 15px 30px;
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 1 !important;
         backdrop-filter: blur(6px);
         background-color: #ffffff11;
     }
@@ -216,7 +219,9 @@
     .sidenav a:first-child:hover {
         border: none;
     }
-    
+    .closebtn{
+        color: white;
+    }
     .closebtn a:hover {
         border: none;
     }
@@ -233,6 +238,7 @@
         justify-content: space-around;
         margin: 90px 40px;
         color: white;
+        margin-bottom: 300px;
     }
     
     .homePage_item {
@@ -443,7 +449,7 @@
     /* trailer section starts here..................... */
     
     #trailer {
-        margin-top: 50px;
+        margin-top: 500px ;
     }
     
     .trailer_header {
@@ -520,9 +526,7 @@
     /* trailer section end here .............. */
     /* events section start here.......... */
     
-    img {
-        border-radius: 5px;
-    }
+    
     
     .Eevent_card__back h2 {
         position: absolute;
@@ -555,8 +559,8 @@
     
     .events {
         margin-left: 9%;
-        margin-bottom: 400px;
-        z-index: 0;
+        margin-bottom: 900px;
+        margin-top: 300px;
     }
     
     .Eevent_card {
@@ -611,46 +615,40 @@
         font-family: "heading font";
         display: flex;
         justify-content: center;
-        /* margin-top: 30px; */
         font-style: italic;
         letter-spacing: 1px;
     }
-    
-    #owl-carousel {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        z-index: 0;
+    .Gallery
+    {
+        margin-top: 400px;
+        /* position: relative;
+        z-index: -1; */
+       
     }
-    
-    #owl-carousel img {
+    .sponsors{
+        margin-bottom: 400px;
+        /* position: relative;
+        z-index: -1; */
+    }
+    .Sponsors__container{
+        position: relative;
         z-index: -1;
     }
-    
-    #Gallary {
-        margin-top: 450px;
-    }
-    
-    #sponsors {
-        margin-top: 900px;
-    }
-    
     .Gallery_item {
         margin: 10px;
         height: 300px;
         padding: 20px;
     }
-    
+    s
     .Sponsors__container .owl-item {
         transform: scale(.5);
-    }
-    
+    } 
     .Sponsors__container .owl-item.center {
-        opacity: 1;
+        /* opacity: 1; */
         transform: scale(1.2);
         height: 300px;
         transition: .8s ease;
-    }
-    
+    }    
     .owl-nav {
         font-size: 3rem;
     }
@@ -667,7 +665,16 @@
         top: 40%;
         right: 0%;
     }
-    
+    @media (max-width:768px) {
+        .sponsors {
+            margin-top: 300px;
+        }
+    }
+    @media (max-width:768px) {
+        .events {
+            margin-bottom: 900px;
+        }
+    }
     @media (max-width:768px) {
         .Gallery_item {
             margin: 50px;
