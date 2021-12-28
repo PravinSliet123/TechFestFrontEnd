@@ -42,3 +42,9 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("mainMenu").style.marginleft = "0";
 }
+
+
+
+
+
+// code for active tags.....................
