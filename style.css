@@ -159,11 +159,11 @@
     }
     nav ul li {
         font-family: "heading font";
-        padding: 4px 25px;
+        padding: 1px 20px;
         margin: 0 10px;
         text-decoration: none;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 20px !important;
         font-style: italic;
         line-height: 24px;
         letter-spacing: 1.5px;
@@ -173,7 +173,7 @@
         border: .1px solid rgb(208, 219, 209);
     }
     .Active{
-        border: .1px solid rgb(208, 219, 209);
+        border: .1px solid rgb(208, 219, 209) !important;
     }
     
     .navLogo {

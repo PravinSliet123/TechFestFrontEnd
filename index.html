@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./javascript.js"></script>
     <link rel="shortcut icon" href="./images/favicon/favicon.svg" type="image/x-icon">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -53,10 +52,10 @@
 
         <div class="mainMenu">
 
-            <ul class="MainMenu__Active">
-                <li class="Active"><a href="#Home" >Home</a></li>
-                <li ><a href="#sponsors">Sponsors</a></li>
-                <li ><a href="#Gallary">Gallary</a></li>
+            <ul id="myDIV">
+                <li class="btn Active"><a href="#Home">Home</a></li>
+                <li class="btn"><a href="#sponsors">Sponsors</a></li>
+                <li class="btn"><a href="#Gallary">Gallary</a></li>
                 <span onclick="openNav()" class="hamburgerIcon">
                     <div></div>
                     <div></div>
@@ -301,8 +300,8 @@
             <div class="Eevent_card__back ">
                 <h2>Events</h2>
                 <p>
-                Lockdown have made us all lazy lad, lets gather to energise ourselves with amazing events.
-                    
+                    Lockdown have made us all lazy lad, lets gather to energise ourselves with amazing events.
+
                 </p>
             </div>
             <div class="Eevent_card__front ">
@@ -327,7 +326,8 @@
             <div class="Eevent_card__back ">
                 <h2>Workshop</h2>
                 <p>
-                    here is the opportunity to give handson to your pro level skllis to make something creative we welcome you all to come forward and participate.
+                    here is the opportunity to give handson to your pro level skllis to make something creative we
+                    welcome you all to come forward and participate.
                 </p>
             </div>
             <div class="Eevent_card__front ">
@@ -339,8 +339,9 @@
         <div class="Eevent_card ">
             <div class="Eevent_card__back ">
                 <h2>Exhibition</h2>
-                <p> 
-                    you got something creative, something technical to showcase, allow us give you a platform to make you reach to the experts for their reviews about your work.
+                <p>
+                    you got something creative, something technical to showcase, allow us give you a platform to make
+                    you reach to the experts for their reviews about your work.
                 </p>
             </div>
             <div class="Eevent_card__front ">
@@ -365,62 +366,7 @@
                 rel="noopener noreferrer "> <i class="fa fa-youtube-play fa-2x "></i></a>
         </div>
     </div>
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            loop: true,
-            merge: true,
-            scroll: true,
-            nav: true,
-            autoplay: true,
-            smartSpeed: 600,
-            autoplaySpeed: 1000,
-            center: true,
-            dots: false,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true,
-                    loop: true,
-                    center: true,
-                },
-                700: {
-                    items: 2,
-                    nav: true,
-                    loop: true,
-                    center: true,
-                },
-                1000: {
-                    items: 3,
-                    nav: true,
-                    loop: true,
-                    center: true,
-                }
-            }
-        })
-        $(window).scroll(function (event) {
-            function footer() {
-                var scroll = $(window).scrollTop();
-                if (scroll > 20) {
-                    $(".footer ").fadeIn("slow ").removeClass("show ");
-                } else {
-                    $(".footer ").fadeOut("slow ").removeClass("show ");
-                }
-
-                clearTimeout($.data(this, 'scrollTimer'));
-                $.data(this, 'scrollTimer', setTimeout(function () {
-                    if ($('.footer').is(':hover')) {
-                        footer();
-                    } else {
-                        $(".footer ").fadeOut("slow ");
-                    }
-                }, 2000));
-            }
-            footer();
-        });
-    </script>
+    <script src="./javascript.js"></script>
 
 </body>
 
